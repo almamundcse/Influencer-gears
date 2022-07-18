@@ -1,0 +1,86 @@
+/* google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300&family=Oleo+Script+Swash+Caps:wght@700&family=Poppins:wght@500&display=swap');
+
+/* common style and utilites */
+body{
+font-family: 'Nunito Sans', sans-serif;
+font-family: 'Oleo Script Swash Caps', cursive;
+font-family: 'Poppins', sans-serif;
+}
+header{
+width: 1240px;
+margin: 0 auto;
+}
+.header-main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-left{
+    padding-left: 25px;
+}
+.header-text{
+    font-size: 19px;
+    color:  rgb(59, 57, 57);
+}
+.header-right{
+    padding-right: 25px;
+}
+.header-right nav a{
+    text-decoration: none;
+    padding-left: 25px;
+    font-size: 18px;
+    color:  rgb(59, 57, 57);
+}
+main{
+    width: 1240px;
+    margin: 0 auto;
+}
+.container{
+    display: flex;
+}
+.container-left{
+    width: 50%;
+    padding: 100px 25px;
+}
+.container-left h1{
+    font-size: 40px;
+    margin: 15px 0px;
+}
+button{
+    font-size: 16px;
+    text-align: center;
+    padding: 7px 15px;
+    border: none;
+    border-radius: 30px;
+    background-color: #E02C6D;
+    color: whitesmoke;
+}
+button .fa-arrow-right{
+    padding-left: 8px;
+}
+.container-right{
+    width: 50%;
+    padding-top: 20px;
+    height: 475px;
+    display: flex;
+    /* background-image: url("images/Circle\ design.svg");
+    background-repeat: no-repeat;
+    background-size: cover; */
+}
+.back-image img{
+    width: 500px;
+    height: 460px;
+    position: relative;
+    left: 100px;
+
+    
+}
+.font-image img {
+    width: 430px;
+    height: 420px;
+    position: relative;
+    right: 345px;
+    top: 10px;
+
+}
