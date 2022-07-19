@@ -7,6 +7,7 @@ font-family: 'Nunito Sans', sans-serif;
 font-family: 'Oleo Script Swash Caps', cursive;
 font-family: 'Poppins', sans-serif;
 }
+/* header style start */
 header{
 width: 1240px;
 margin: 0 auto;
@@ -32,10 +33,12 @@ margin: 0 auto;
     font-size: 18px;
     color:  rgb(59, 57, 57);
 }
+/* header style end */
 main{
     width: 1240px;
     margin: 0 auto;
 }
+/* container style start  */
 .container{
     display: flex;
 }
@@ -46,6 +49,10 @@ main{
 .container-left h1{
     font-size: 40px;
     margin: 15px 0px;
+    color:  rgb(59, 57, 57);
+}
+.container-left p{
+    color:  rgb(59, 57, 57);
 }
 button{
     font-size: 16px;
@@ -59,22 +66,18 @@ button{
 button .fa-arrow-right{
     padding-left: 8px;
 }
+/* container style  */
 .container-right{
     width: 50%;
     padding-top: 20px;
     height: 475px;
     display: flex;
-    /* background-image: url("images/Circle\ design.svg");
-    background-repeat: no-repeat;
-    background-size: cover; */
 }
 .back-image img{
     width: 500px;
     height: 460px;
     position: relative;
     left: 100px;
-
-    
 }
 .font-image img {
     width: 430px;
@@ -82,5 +85,30 @@ button .fa-arrow-right{
     position: relative;
     right: 345px;
     top: 10px;
-
+}
+/* container style end  */
+/* ---------
+website logo style start--------  */
+.website-logo{
+    width: 100%;
+    height: 80px;
+    margin-top: 50px;
+    border-top:1px solid rgb(189, 182, 182);
+    border-bottom: 1px solid rgb(189, 182, 182);
+    background-color: rgb(250, 246, 246);
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-column-gap: 10px;
+}
+.website-name{
+    height: 40px;
+    margin: auto;
+}
+.website-name img{
+    width: 70px;
+    padding-top: 10px; 
+    align-items: center;
+}
+#amazon{
+     padding-top:0px; 
 }
